@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #333;
+  }
+  
+  nav ul li {
+    flex: 1;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #111;
+  }
+  
+  header {
+    position: relative;
+    text-align: center;
+  }
+  
+  .header-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    display: none;
+    background: rgba(3, 8, 3, 0.373);
+    width: 100%;
+  }
+  
+  header:hover .header-text {
+    display: block;
+  }
+  
+  #about {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .job-description {
+    font-size: 18px;
+    color : rgb(19, 196, 169);
+  }
+  
+  #work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-image {
+    flex: 1 1 30%;
+    margin: 5px;
+  }
+  
+  .gallery-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  </style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://youtu.be/dQw4w9WgXcQ">About</a></li>
+            <li><a href="https://youtu.be/dQw4w9WgXcQ">Work</a></li>
+            <li><a href="https://youtu.be/dQw4w9WgXcQ">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <img src="https://universitiesaustralia.edu.au/wp-content/uploads/2018/10/Deakin-4-web-1400x933.jpg" alt="Header Image" class="header-image">
+        <div class="header-text">Hey, I'm gary zhang</div>
+    </header>
+    <section id="about">
+        <img src="https://stevegabry.wordpress.com/wp-content/uploads/2018/02/salcu1200.png?w=825&h=500&crop=1" alt="Profile Photo" class="profile-photo">
+        <p class="job-description">i am a full stake developer</p>
+        <p class="job-description">    _________________</p>
+        <p class="job-description">here is what i am done so far</p>
+    </section>
+    <section id="work">
+      <div>
+        <div class="project">
+            <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfJ6TaQZ4SozXizNgd_l7hQ3Md_fbvym87g&s" alt="Project 1">
+            Project 1 </p>
+        </div>
+        
+        <div class="project">
+            <p><img src="https://i0.wp.com/www.projectsmind.com/wp-content/uploads/2021/05/What-is-project.png" alt="Project 2">
+            Project 2</p>
+        </div>
+      </div>
+        
+    </section>
+    <section id="about">
+      <p class="job-description">    _________________</p>
+      <p class="job-description">my photo</p>
+  </section>
+    <section id="gallery">
+        <div class="gallery-image"><img src="https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp" alt="Gallery Image 1"></div>
+        <div class="gallery-image"><img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/camping-on-top-of-the-mountain-during-sunset-free-photo.jpg?w=600&quality=80" alt="Gallery Image 2"></div>
+        <div class="gallery-image"><img src="https://st.depositphotos.com/2001755/3622/i/450/depositphotos_36220949-stock-photo-beautiful-landscape.jpg" alt="Gallery Image 3"></div>
+        <!-- Add more gallery images as needed -->
+    </section>
+</body>
+</html>
